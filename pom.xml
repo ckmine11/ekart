@@ -165,6 +165,12 @@
     </build>
 
          <distributionManagement>
+          <repositories>
+    <repository>
+      <id>forplay-legacy</id>
+      <url>http://forplay.googlecode.com/svn/mavenrepo</url>
+    </repository>
+  </repositories>
     <repository>
       <id>maven-releases</id>
       <name>maven-releases</name>
